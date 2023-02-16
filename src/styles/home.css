@@ -1,0 +1,95 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  background-color: black;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+}
+
+#home {
+  background-image: url('/src/resources/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#brand {
+  margin: 0;
+  padding: 4% 0 0 4%;
+  display: inline-block;
+  position: absolute;
+  font-size: 3vw;
+  font-weight: 300;
+}
+
+.intro {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 80vw;
+  margin: auto;
+}
+
+.case {
+  width: 40vw;
+  filter: drop-shadow(19px 18px 20px #000);
+  transition: all 0.8s 0s;
+}
+
+.btn {
+  border: none;
+  color: #ffffff;
+  font-size: 30px;
+  background: rgb(51, 50, 50, 50%);
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: all 0.1s 0s ease-in;
+  font-family: 'Montserrat';
+}
+
+.btn:hover {
+  background: rgba(36, 35, 35, 0.5);
+  text-decoration: none;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.overlap {
+  position: absolute;
+}
+
+.z {
+  z-index: -1;
+}
+
+.loadLeft {
+  transform: translateX(-100%);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.loadRight {
+  transform: translateX(100%);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.cta {
+  transition: all 0.8s 0s;
+}

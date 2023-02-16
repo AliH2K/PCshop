@@ -1,0 +1,84 @@
+@media (max-width: 700px) {
+  .items {
+    border-radius: unset;
+    overflow: visible;
+    gap: 0;
+    width: 90vw;
+  }
+
+  .item {
+    width: 250px;
+    height: 800px;
+  }
+
+  .content {
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 92%;
+    background-color: #fff;
+  }
+
+  .priceRange {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .priceRange li {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px gray;
+    border-radius: 10px;
+  }
+
+  ul,
+  li {
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .cartProduct {
+    font-size: 0.5rem;
+  }
+
+  .cartChange {
+    flex-direction: column;
+  }
+
+  .cartChange > button {
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: auto;
+  }
+
+  .case {
+    width: 300px;
+  }
+
+  #brand {
+    position: relative;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-height: 700px) and (min-width: 701px) {
+  .intro {
+    font-size: 1rem;
+  }
+  .case {
+    width: 400px;
+  }
+  #brand {
+    font-size: 2rem;
+  }
+}
