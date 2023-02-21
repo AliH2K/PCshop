@@ -26,7 +26,7 @@ function Home() {
               Shop
             </button>
           </div>
-          <img className='case loadRight' src='/case.png' alt='' />
+          <img className='case loadRight' src='./case.png' alt='' />
         </section>
       </div>
     </>
