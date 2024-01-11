@@ -4,7 +4,7 @@ export const HomeComp = styled.div<{ 'data-show': boolean }>`
   ${(props) => (props['data-show'] ? `` : `display: none;`)}
   position: absolute;
   z-index: 0;
-  background-image: url('./src/resources/bg.jpg');
+  background-image: url('./bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
